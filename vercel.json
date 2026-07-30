@@ -1,0 +1,6 @@
+{
+  "rootDirectory": "e2e-hrc",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite"
+}
