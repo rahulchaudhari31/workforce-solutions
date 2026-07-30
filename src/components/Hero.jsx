@@ -13,7 +13,7 @@ export default function Hero() {
   const [rightRef, rightVisible] = useScrollReveal();
 
   return (
-    <section id="home" className="bg-white py-16 md:py-20 px-4 overflow-hidden">
+    <section id="home" className="bg-primary py-16 md:py-20 px-4 overflow-hidden">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
 
         {/* LEFT */}
@@ -27,13 +27,13 @@ export default function Hero() {
             Strategic • Flexible • Global
           </span>
 
-          <h1 className="font-heading font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight text-primary m-0">
+          <h1 className="font-heading font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight text-white m-0">
             Workforce Solutions<br />
             That Drive<br />
             <span className="text-accent">Business Growth</span>
           </h1>
 
-          <p className="text-text-body text-base leading-relaxed max-w-lg">
+          <p className="text-white/70 text-base leading-relaxed max-w-lg">
             At E2E Human Resource Consultancy, we provide end-to-end workforce solutions
             that help organisations attract, recruit, manage, and retain exceptional talent.
           </p>
